@@ -1,0 +1,10 @@
+GERAÇÂO RANDOMICA DE VALORES
+
+Quase todas as linguagens fornecem mecanismos para a geração pseudo-aleatórias de valores (NÃO É SORTEIO, É CALCULO).
+*Em C temos definidas em "stdlib.h as funções:
+	
+	srand (semente): inicializa a geração, usando o valor de semente.
+	rand (): gera um valor entre 0 e MAX_RAND   *(MAX_RAND É DEFINIDA EM stdlib.h)*
+
+LIMITE DA GERAÇÃO:
+
